@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Monte Carlo Pi Estimation</h1>
+        <h2>Visualizing the approximation of Pi</h2>
+
+        <div class="visualization">
+            <canvas id="mycanvas" width="450" height="450"></canvas>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar">
+                <span id="progress-text">0%</span>
+            </div>
+        </div>
+
+        <div class="insights">
+            <p id="pi">Estimated Pi: 0</p>
+            <p id="error">Error Rate: 0%</p>
+        </div>
+
+        <button id="start-button" onclick="monteCarloPI(1000000)">Start Simulation</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
