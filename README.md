@@ -22,7 +22,7 @@ The visualization includes:
 2. Generate a random point `x`.  
 3. Generate a random point `y`.  
 4. Calculate \( d = x \cdot x + y \cdot y \).  
-5. If \( d \leq 1 \), increment `circle_points`.  
+5. If \( d <= 1 \), increment `circle_points`.  
 6. Increment `square_points`.  
 7. Increment `interval`.  
 8. If `interval` < `NO_OF_ITERATIONS`, repeat from step 2.  
