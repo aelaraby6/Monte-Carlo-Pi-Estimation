@@ -59,7 +59,7 @@ The visualization includes:
 
 ## Key Achievements  
 - Approximated the value of Pi using **1,000,000 random points**.  
-- Achieved an estimated value of Pi close to **3.1416**, with a minimal error rate.  
+- Achieved an estimated value of Pi close to **3.1412**, with a minimal error rate.  
 - Created an interactive and educational visualization of Pi estimation.
 
 ![Result](https://github.com/user-attachments/assets/a1b572b0-cc98-47f8-bbb3-985d5e4ed32c)
