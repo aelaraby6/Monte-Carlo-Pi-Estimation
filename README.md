@@ -21,12 +21,12 @@ The visualization includes:
 1. Initialize `circle_points`, `square_points`, and `interval` to 0.  
 2. Generate a random point `x`.  
 3. Generate a random point `y`.  
-4. Calculate \( d = x \cdot x + y \cdot y \).  
+4. Calculate \( d = x * x + y * y \).  
 5. If \( d <= 1 \), increment `circle_points`.  
 6. Increment `square_points`.  
 7. Increment `interval`.  
 8. If `interval` < `NO_OF_ITERATIONS`, repeat from step 2.  
-9. Calculate \( \pi = 4 \cdot (\text{circle_points} / \text{square_points}) \).  
+9. Calculate pi = 4 * (circle_points / square_points).  
 10. Terminate.  
 
 
