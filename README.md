@@ -1,5 +1,9 @@
 # Monte Carlo Pi Estimation
 
+
+https://github.com/user-attachments/assets/047c51c4-8d25-4b32-ba25-2220a9c8c23b
+
+
 ## Project Description  
 This project visualizes the process of estimating the value of π (Pi) using the Monte Carlo method. It uses random point generation within a square that bounds a circle to approximate Pi.  
 
@@ -12,28 +16,19 @@ The visualization includes:
 ---
 
 ## How It Works  
-The Monte Carlo method estimates Pi based on the ratio of points inside a circle to the total points generated within the bounding square.  
 
-### Mathematical Concept  
-1. **Circle Area Formula**:  
-   \[
-   A_{\text{circle}} = \pi r^2
-   \]
+### The Algorithm  
+1. Initialize `circle_points`, `square_points`, and `interval` to 0.  
+2. Generate a random point `x`.  
+3. Generate a random point `y`.  
+4. Calculate \( d = x \cdot x + y \cdot y \).  
+5. If \( d \leq 1 \), increment `circle_points`.  
+6. Increment `square_points`.  
+7. Increment `interval`.  
+8. If `interval` < `NO_OF_ITERATIONS`, repeat from step 2.  
+9. Calculate \( \pi = 4 \cdot (\text{circle_points} / \text{square_points}) \).  
+10. Terminate.  
 
-2. **Square Area Formula**:  
-   \[
-   A_{\text{square}} = (2r)^2
-   \]
-
-3. The ratio of the areas of the circle to the square is proportional to:  
-   \[
-   \pi / 4
-   \]
-
-4. By generating random points and calculating how many fall inside the circle, Pi can be estimated using the formula:  
-   \[
-   \pi \approx 4 \times \frac{\text{Points inside the circle}}{\text{Total points}}
-   \]
 
 ### Features  
 1. **Dynamic Point Generation**:  
@@ -45,14 +40,12 @@ The Monte Carlo method estimates Pi based on the ratio of points inside a circle
 4. **Real-Time Insights**:  
    - Displays the estimated Pi value and the error rate dynamically.  
 
----
 
 ## Technologies Used  
 - **HTML5**: For structuring the page and creating the canvas element.  
 - **CSS3**: For styling the visualization and progress bar.  
 - **JavaScript**: For implementing the Monte Carlo algorithm and visualization logic.  
 
----
 
 ## Usage  
 1. Clone or download the repository.  
@@ -63,17 +56,12 @@ The Monte Carlo method estimates Pi based on the ratio of points inside a circle
    - The progress bar indicates the simulation progress.  
    - Real-time Pi estimate and error rate updates.
 
----
 
 ## Key Achievements  
 - Approximated the value of Pi using **1,000,000 random points**.  
 - Achieved an estimated value of Pi close to **3.1416**, with a minimal error rate.  
 - Created an interactive and educational visualization of Pi estimation.
 
----
-
-## File Structure  
-- **index.html**: Contains the structure of the project.  
-- **style.css**: Provides the styling for the page and visualization.  
-- **main.js**: Implements the Monte Carlo algorithm and handles rendering.  
+![Result](https://github.com/user-attachments/assets/a1b572b0-cc98-47f8-bbb3-985d5e4ed32c)
+  
 
