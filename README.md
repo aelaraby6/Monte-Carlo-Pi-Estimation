@@ -1,5 +1,3 @@
-# Monte-Carlo-Pi-Estimation
-
 # Monte Carlo Pi Estimation
 
 ## Project Description  
@@ -17,14 +15,25 @@ The visualization includes:
 The Monte Carlo method estimates Pi based on the ratio of points inside a circle to the total points generated within the bounding square.  
 
 ### Mathematical Concept  
-- **Circle Area Formula**: \( A = \pi r^2 \)  
-- **Square Area Formula**: \( A = (2r)^2 \)  
-- The ratio of the areas of the circle to the square is proportional to \( \pi/4 \).  
+1. **Circle Area Formula**:  
+   \[
+   A_{\text{circle}} = \pi r^2
+   \]
 
-By generating random points and calculating how many fall inside the circle, Pi can be estimated as:  
-\[
-\pi \approx 4 \times \frac{\text{Points inside the circle}}{\text{Total points}}
-\]
+2. **Square Area Formula**:  
+   \[
+   A_{\text{square}} = (2r)^2
+   \]
+
+3. The ratio of the areas of the circle to the square is proportional to:  
+   \[
+   \pi / 4
+   \]
+
+4. By generating random points and calculating how many fall inside the circle, Pi can be estimated using the formula:  
+   \[
+   \pi \approx 4 \times \frac{\text{Points inside the circle}}{\text{Total points}}
+   \]
 
 ### Features  
 1. **Dynamic Point Generation**:  
@@ -61,5 +70,10 @@ By generating random points and calculating how many fall inside the circle, Pi 
 - Achieved an estimated value of Pi close to **3.1416**, with a minimal error rate.  
 - Created an interactive and educational visualization of Pi estimation.
 
+---
 
+## File Structure  
+- **index.html**: Contains the structure of the project.  
+- **style.css**: Provides the styling for the page and visualization.  
+- **main.js**: Implements the Monte Carlo algorithm and handles rendering.  
 
