@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/047c51c4-8d25-4b32-ba25-2220a9c8c23b
 
 
 ## Project Description  
-This project visualizes the process of estimating the value of π (Pi) using the Monte Carlo method. It uses random point generation within a square that bounds a circle to approximate Pi.  
+This project visualizes the process of estimating the value of Pi using the Monte Carlo method. It uses random point generation within a square that bounds a circle to approximate Pi.  
 
 The visualization includes:  
 - **Red points**: Represent points inside the circle.  
