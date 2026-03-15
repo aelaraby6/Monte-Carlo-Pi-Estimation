@@ -20,7 +20,6 @@ ctx.strokeStyle = "orange";
 ctx.stroke();
 
 // Monte Carlo Pi Estimation
-
 function monteCarloPI(numPoints) {
     let insideCircle = 0;
     let totalPoints = 0;
