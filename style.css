@@ -2,12 +2,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;  
     margin: 0;
+    padding: 20px 0;   
     font-family: 'Open Sans', sans-serif;
     background-color: #1a1a1a;
     color: #ffffff;
-    position: relative;
 }
 
 .container {
@@ -61,9 +61,6 @@ canvas {
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 20px;
-    position: absolute;
-    top: 740px;
-    left: 770px;
 }
 
 #start-button:hover {
